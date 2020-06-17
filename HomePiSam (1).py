@@ -120,7 +120,7 @@ def Sayit(answer):
 
     """ RATE"""
     rate = engine.getProperty('rate')   # getting details of current speaking rate
-    print ('the speaking rate is: 'rate)                        #printing current voice rate
+    print ('the speaking rate is: ',rate)                        #printing current voice rate
     engine.setProperty('rate', 125)     # setting up new voice rate
 
 
